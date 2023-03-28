@@ -26,7 +26,7 @@ on:
       runFoDSASTScan:
         description: 'Carry out SAST scan using Fortify on Demand'
         required: false
-        default: 'true'
+        default: 'false'
       runDebrickedScan:
         description: 'Carry out SCA scan using Debricked'
         required: false
